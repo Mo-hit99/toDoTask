@@ -1,0 +1,71 @@
+.App{
+  background-color: aliceblue;
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.btn{
+  border: none;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 5px 5px #ccc;
+  font-size: 1rem;
+}
+
+.btn-open{
+  background-color: red;
+}
+
+.nav-link{
+  width:400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: .2rem 1rem;
+}
+
+.list-item{
+  position: relative;
+  border: 1px solid black;
+  width: 40%;
+  padding: .5rem 1rem;
+  list-style: none;
+  margin-bottom: 4rem;
+}
+
+.list-item span{
+  position: absolute;
+  right: 12px;
+  text-align: end;
+}
+
+#hover-container{
+  background-color:#f3ede2;
+  position: absolute;
+  list-style: none;
+  top:40px;
+  text-align: center;
+  right: -50px;
+  height:60px;
+  line-height: 2rem;
+  width: 150px;
+  border-radius: 5px;
+  visibility: hidden;
+  transition: 0.4s ease;
+  cursor: pointer;
+}
+
+li:hover ul#hover-container{
+  opacity: 1;
+  visibility: visible;
+}
+html,body,#root {
+  height: 100%;
+  width: 100%;
+}
