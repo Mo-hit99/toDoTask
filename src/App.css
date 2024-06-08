@@ -36,7 +36,7 @@
   width: 40%;
   padding: .5rem 1rem;
   list-style: none;
-  margin-bottom: 4rem;
+  margin: 4rem auto;
 }
 
 .list-item span{
